@@ -1,38 +1,53 @@
-Objective
-Analyze trends in global emissions
-Understand the impact of GDP and population on energy usage
-Identify major contributors to global emissions
-Compare countries using per capita and ratio analysis
+# 📊 Energy Data Analysis using SQL
 
-Dataset
-The dataset consists of the following tables:
-country_3 – Country details
-consum_3 – Energy consumption
-production_3 – Energy production
-emission_3 – Emissions data
-gdp_3 – GDP values
-population_3 – Population data
-Key Analysis Performed
-Emission trend analysis over time
-Emission-to-GDP ratio calculation
-Energy consumption per capita
-Correlation between GDP and production growth
-Global emission share by country
+## 📌 Overview
 
-Tools & Technologies
-MySQL
-SQL (Joins, Aggregations, CTEs, Window Functions)
+This project focuses on analyzing global energy, GDP, population, and emission datasets using SQL to identify trends, relationships, and key insights related to energy consumption and environmental impact.
 
-Key Insights
-Global emissions are increasing year over year
-A few countries contribute the majority of emissions
-Per capita metrics provide better comparisons than total values
-Economic growth and energy production relationship varies across countries
+## 🎯 Objective
 
-How to Run
-Import CSV files into MySQL database
-Create tables and relationships
-Run SQL queries provided in the project
+* Analyze global emission trends over time
+* Study the relationship between GDP, population, and energy usage
+* Compare countries using per capita and ratio analysis
+* Identify major contributors to global emissions
 
-Conclusion
-This project highlights the importance of efficient energy usage and sustainable development by analyzing global energy patterns.
+## 🛠️ Technologies Used
+
+* MySQL
+* SQL
+* Joins
+* CTEs
+* Window Functions
+* Aggregate Functions
+
+## 📂 Dataset Tables
+
+* `country_3` – Country information
+* `gdp_3` – GDP data
+* `population_3` – Population data
+* `consum_3` – Energy consumption data
+* `production_3` – Energy production data
+* `emission_3` – Emission data
+
+## 🔍 Key Analysis Performed
+
+* Global emission trend analysis
+* Emission-to-GDP ratio analysis
+* Energy consumption per capita
+* Correlation between GDP growth and energy production
+* Global share of emissions by country
+
+## 📊 Key Insights
+
+* Global emissions increased consistently from 2020–2023
+* A few countries contribute the majority of global emissions
+* Economic growth and energy production show varying relationships across countries
+* Per capita analysis provides better comparison than total values
+
+## 🚀 Conclusion
+
+This project highlights the importance of sustainable energy usage and demonstrates how SQL can be used to derive meaningful insights from large datasets.
+
+
+
+Your Name
